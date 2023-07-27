@@ -81,7 +81,6 @@ h4 {
 .nav-links a {
     margin: 0 0 0 10px;
 }
-/* Fin Navegacion */
 
 /* Contenido */
 .noticia {
@@ -162,7 +161,6 @@ h4 {
 .segundo {
     margin: 15px 0;
 }
-/* Fin Explore */
 
 /* Inicio Contenido Noticia */
 .texto-noticia {
@@ -207,4 +205,12 @@ h4 {
 .tag-btn:hover{
     background-color: rgba(163,163,163,0.5);
     color: rgba(20, 20, 20, 1);
+}
+
+/* Responsive */
+@media screen and(max-width:400px) {
+    .contenedor, .noticia {
+        padding: 0 15px;
+    }
+    
 }
